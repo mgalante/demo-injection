@@ -1,7 +1,13 @@
+<h1>Test Injection in EagerModules</h1>
+<img src="assets/diagram.png" >
 
+
+<h2>AppComponent</h2>
 <p>
   childAServiceState: {{ childAService.data | async }} /  sharedServiceState: {{ sharedService.data | async }}
 </p>
-
+<h2>ChildAComponent</h2>
 <app-child-a></app-child-a>
+<h2>ChildBComponent</h2>
 <app-child-b></app-child-b>
+
